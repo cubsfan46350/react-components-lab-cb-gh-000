@@ -8,9 +8,8 @@ const BUTCHER_PRODUCTS = [
   'Ribeye'
 ];
 
-// Define these exported classes
-export class OlderCoaster extends Component {
 
+export class OlderCoaster extends Component {
    render() {
      return (
        <div className="oldercoaster">
