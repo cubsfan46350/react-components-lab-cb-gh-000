@@ -1,12 +1,12 @@
- import React, { Component } from 'react' // We need to import react so we can make use of its .component class
- import ReactDOM from 'react-dom' // ...and we need to import ReactDOM so we can create and test a virtual DOM with react!
+ import React, { Component } from 'react'; // We need to import react so we can make use of its .component class
+ import ReactDOM from 'react-dom'; // ...and we need to import ReactDOM so we can create and test a virtual DOM with react!
 
 const BUTCHER_PRODUCTS = [
   'Tenderloin',
   'Short ribs',
   'Beef shin',
   'Ribeye'
-]
+];
 
 // Define these exported classes
 export class OlderCoaster extends Component {
