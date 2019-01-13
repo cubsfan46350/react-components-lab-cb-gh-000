@@ -37,7 +37,19 @@ export class InFrontOfYou extends Component {
 }
 
 export class ButcherShop extends Component {
-  // your code here
+  render() {
+    return (
+      <div className="butcher-shop">
+        <p>Hello! We have the following products for sale today:</p>
+        <ul>
+          <li>Tenderloin</li>
+          <li>Short ribs</li>
+          <li>Beef shin</li>
+          <li>Ribeye</li>
+        </ul>
+      </div>
+    );
+  }
 }
 
 
