@@ -14,12 +14,12 @@ export class OlderCoaster extends Component {
    render() {
      return (
        <div className="oldercoaster">
-        <p>Two grannies having the time of their life!</p>
-        <p>Passengers:</p>
-        <ul>
-          <li>Agnes<li>
-          <li>Muriel</li>
-        </ul>
+          <p>Two grannies having the time of their life!</p>
+          <p>Passengers:</p>
+          <ul>
+            <li>Agnes<li>
+            <li>Muriel</li>
+          </ul>
        </div>
      );
    }
@@ -27,7 +27,14 @@ export class OlderCoaster extends Component {
 }
 
 export class InFrontOfYou extends Component {
-  // your code here
+  render() {
+    return (
+      <div>
+        <p>You shouldn't look too far.</p>
+        <p>Sometimes, the solution is right in front of you.</p>
+      </div>
+    );
+  }
 }
 
 export class ButcherShop extends Component {
