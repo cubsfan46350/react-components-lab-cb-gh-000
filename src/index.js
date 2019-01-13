@@ -21,7 +21,7 @@ export class OlderCoaster extends Component {
           <li>Muriel</li>
         </ul>
        </div>
-     )
+     );
    }
   
 }
